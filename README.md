@@ -1,24 +1,27 @@
 # Hi, I'm Abhiram 👋
 
-CS undergrad @ Geethanjali College of Engineering and Technology, Hyderabad · AI & ML · Expected 2027
+CSE-AIML undergrad @ Geethanjali College of Engineering and Technology, Hyderabad · AI & ML · 2023-2027 Batch
 
 ---
 
 ## 🔭 Currently Working On
-- **LRP-Merge** — a custom LLM merging algorithm built on Mergekit using Layer-wise Relevance Propagation, applied to TinyLlama 1.1B for fake news detection
-- Building my AI/ML project portfolio for 2027 campus placements and internship applications
+- **ex_LRP-Turbo** — a custom LLM merging algorithm built on [Arcee AI's Mergekit](https://github.com/arcee-ai/mergekit) that combines three ideas: **explainability** (understanding what a model has learned), **AttnLRP** (layer-wise relevance propagation for transformers, to score which layers matter most), and **TurboQuant** (Google's near-optimal vector quantization, for efficient merging). The core idea: take a base model (global) and a fine-tuned version (local), use LRP relevance scores to decide which layers to keep from each, and apply TurboQuant to compress without losing what matters.
 
+**Applications:** Medical AI (merge a general clinical model with a specialist fine-tune while keeping only the layers that learned domain-specific reasoning), edge deployment (produce smaller merged models that retain task performance without full fine-tuning costs), federated learning (merge locally fine-tuned models from different clients into a global model intelligently rather than averaging weights blindly), and fake news / misinformation detection at scale (the original use case — lightweight models that can be deployed without GPU infrastructure).
+  More details: [PR #682](https://github.com/arcee-ai/mergekit/pull/682)
+- Building my project portfolio — AI/ML and web dev — for 2026 and 2027 campus placements and internship applications
 ## 🌱 Currently Learning
-- LLM fine-tuning — LoRA, QLoRA, RLHF, DPO, GRPO
+- LLM fine-tuning — LoRA, QLoRA
 - MLOps & model deployment (getting my models out of Colab)
-- Full-stack development for AI-powered applications
+- Full-stack development with AI-powered applications
 
 ## 👯 Looking to Collaborate On
-- Open source AI/ML projects — NLP, LLM tooling, model merging/fine-tuning
+- Open source AI/ML projects — NLP, LLM tooling, model merging and fine-tuning
+- Full-stack web development projects, especially ones with an AI layer on top
 - Anything where the goal is understanding, not just benchmarking
 
 ## 🤝 Looking for Help With
-- Honest feedback on my projects — research rigor and real-world applicability
+- Honest feedback on my projects — research rigor, problem solving-oriented and real-world applicability
 - Connections in the AI/ML and software industry
 
 ## 💬 Ask Me About
