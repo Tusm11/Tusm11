@@ -1,15 +1,18 @@
 # Hi, I'm Abhiram 👋
 
-CSE-AIML undergrad @ Geethanjali College of Engineering and Technology, Hyderabad · AI & ML · 2023-2027 Batch
+I build things at the intersection of AI and the web — from fine-tuning large language models to shipping full-stack applications that make those models actually useful. Currently deep in the internals of LLMs: how they work, how to make them efficient, and how to make them explainable.
+
+Third-year CS undergrad [Geethanjali College of Engineering and Technology](https://gcet.edu.in/) · AI & ML · 2027 Batch
 
 ---
 
 ## 🔭 Currently Working On
-- **ex_LRP-Turbo** — a custom LLM merging algorithm built on [Arcee AI's Mergekit](https://github.com/arcee-ai/mergekit) that combines three ideas: **explainability** (understanding what a model has learned), **AttnLRP** (layer-wise relevance propagation for transformers, to score which layers matter most), and **TurboQuant** (Google's near-optimal vector quantization, for efficient merging). The core idea: take a base model (global) and a fine-tuned version (local), use LRP relevance scores to decide which layers to keep from each, and apply TurboQuant to compress without losing what matters.
+- **ex-LRP-Turbo** — a custom LLM merging algorithm built on [Arcee AI's Mergekit](https://github.com/arcee-ai/mergekit) that combines three ideas: **explainability** (understanding what a model has learned), **AttnLRP** (layer-wise relevance propagation for transformers, to score which layers matter most), and **TurboQuant** (Google's near-optimal vector quantization, for efficient merging). The core idea: take a base model (global) and a fine-tuned version (local), use LRP relevance scores to decide which layers to keep from each, and apply TurboQuant to compress without losing what matters.
 
 **Applications:** Medical AI (merge a general clinical model with a specialist fine-tune while keeping only the layers that learned domain-specific reasoning), edge deployment (produce smaller merged models that retain task performance without full fine-tuning costs), federated learning (merge locally fine-tuned models from different clients into a global model intelligently rather than averaging weights blindly), and fake news / misinformation detection at scale (the original use case — lightweight models that can be deployed without GPU infrastructure).
   More details: [PR #682](https://github.com/arcee-ai/mergekit/pull/682)
 - Building my project portfolio — AI/ML and web dev — for 2026 and 2027 campus placements and internship applications
+
 ## 🌱 Currently Learning
 - LLM fine-tuning — LoRA, QLoRA
 - MLOps & model deployment (getting my models out of Colab)
