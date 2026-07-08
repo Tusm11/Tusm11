@@ -2,7 +2,7 @@
 
 I build things at the intersection of AI and the web — from fine-tuning large language models to shipping full-stack applications that make those models actually useful. Currently deep in the internals of LLMs: how they work, how to make them efficient, and how to make them explainable.
 
-Third-year CS undergrad [Geethanjali College of Engineering and Technology](https://gcet.edu.in/) · AI & ML · 2027 Batch
+Fourth-year CSE undergrad [Geethanjali College of Engineering and Technology](https://gcet.edu.in/) · AI & ML · 2027 Batch
 
 ---
 
